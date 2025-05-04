@@ -5,8 +5,8 @@ A Point of Sale (POS) system developed for the Object-Oriented Programming (OOP)
 📋 Project Overview
 This system manages:
 
-Products
-Services
+Products,
+Services,
 Custom packages
 
 🎯 Key Features
