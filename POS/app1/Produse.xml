@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elemente>
+	
+	<Produs>
+		<Nume>Laptop</Nume>
+		<CodIntern>15525</CodIntern>
+		<Pret>4500</Pret>
+		<Categorie>Tehnologia Informatiei</Categorie>
+		<Producator>Japonia</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Smartphone</Nume>
+		<CodIntern>15526</CodIntern>
+		<Pret>3200</Pret>
+		<Categorie>Telecomunicatii</Categorie>
+		<Producator>Coreea de Sud</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Televizor</Nume>
+		<CodIntern>15527</CodIntern>
+		<Pret>3000</Pret>
+		<Categorie>Electronice</Categorie>
+		<Producator>Germania</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Frigider</Nume>
+		<CodIntern>15528</CodIntern>
+		<Pret>2400</Pret>
+		<Categorie>Electrocasnice</Categorie>
+		<Producator>Franta</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Masina de spalat</Nume>
+		<CodIntern>15529</CodIntern>
+		<Pret>2800</Pret>
+		<Categorie>Electrocasnice</Categorie>
+		<Producator>Italia</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Camera foto</Nume>
+		<CodIntern>15530</CodIntern>
+		<Pret>2000</Pret>
+		<Categorie>Foto-Video</Categorie>
+		<Producator>Suedia</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Imprimanta</Nume>
+		<CodIntern>15531</CodIntern>
+		<Pret>1500</Pret>
+		<Categorie>Accesorii</Categorie>
+		<Producator>China</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Aspirator</Nume>
+		<CodIntern>15532</CodIntern>
+		<Pret>1100</Pret>
+		<Categorie>Electrocasnice</Categorie>
+		<Producator>Olanda</Producator>
+	</Produs>
+	
+	<Produs>
+		<Nume>Tableta</Nume>
+		<CodIntern>15533</CodIntern>
+		<Pret>1700</Pret>
+		<Categorie>Tehnologia Informatiei</Categorie>
+		<Producator>Canada</Producator>
+	</Produs>
+
+	<Serviciu>
+		<Nume>Instalare Windows</Nume>
+		<CodIntern>001</CodIntern>
+		<Pret>100</Pret>
+		<Categorie>Instalari</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Instalare Microsoft Office</Nume>
+		<CodIntern>002</CodIntern>
+		<Pret>150</Pret>
+		<Categorie>Instalari</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Reparare Laptop</Nume>
+		<CodIntern>003</CodIntern>
+		<Pret>200</Pret>
+		<Categorie>Reparatii</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Curatare Sistem</Nume>
+		<CodIntern>004</CodIntern>
+		<Pret>80</Pret>
+		<Categorie>Intretinere</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Diagnosticare PC</Nume>
+		<CodIntern>005</CodIntern>
+		<Pret>50</Pret>
+		<Categorie>Diagnosticare</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Optimizare Performanță</Nume>
+		<CodIntern>006</CodIntern>
+		<Pret>120</Pret>
+		<Categorie>Optimizari</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Instalare Antivirus</Nume>
+		<CodIntern>007</CodIntern>
+		<Pret>90</Pret>
+		<Categorie>Instalari</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Configurare Router</Nume>
+		<CodIntern>008</CodIntern>
+		<Pret>100</Pret>
+		<Categorie>Networking</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Recuperare Date</Nume>
+		<CodIntern>009</CodIntern>
+		<Pret>300</Pret>
+		<Categorie>Reparatii</Categorie>
+	</Serviciu>
+	
+	<Serviciu>
+		<Nume>Upgrade Hardware</Nume>
+		<CodIntern>010</CodIntern>
+		<Pret>250</Pret>
+		<Categorie>Upgrade</Categorie>
+	</Serviciu>
+
+	<Pachet>
+		<Nume>Craciun</Nume>
+		<CodIntern>4112</CodIntern>
+		<Categorie>IT</Categorie>
+
+		<nrProdusePachet>2</nrProdusePachet>
+		<nrServiciiPachet>1</nrServiciiPachet>
+
+		<Produs>
+			<Nume>Laptop</Nume>
+			<CodIntern>15531</CodIntern>
+			<Pret>1500</Pret>
+			<Categorie>Accesorii</Categorie>
+			<Producator>China</Producator>
+		</Produs>
+
+		<Produs>
+			<Nume>Laptop2</Nume>
+			<CodIntern>15531</CodIntern>
+			<Pret>1500</Pret>
+			<Categorie>Accesorii</Categorie>
+			<Producator>China</Producator>
+		</Produs>
+
+		<Produs>
+			<Nume>Smartphone</Nume>
+			<CodIntern>15526</CodIntern>
+			<Pret>3200</Pret>
+			<Categorie>Telecomunicatii</Categorie>
+			<Producator>Coreea de Sud</Producator>
+		</Produs>
+
+		<Serviciu>
+			<Nume>Optimizare Performanță</Nume>
+			<CodIntern>006</CodIntern>
+			<Pret>120</Pret>
+			<Categorie>Optimizari</Categorie>
+		</Serviciu>
+		
+		
+	</Pachet>
+
+	<Pachet>
+		<Nume>Paste</Nume>
+		<CodIntern>4112</CodIntern>
+		<Categorie>IT</Categorie>
+
+		<nrProdusePachet>2</nrProdusePachet>
+		<nrServiciiPachet>1</nrServiciiPachet>
+
+		<Produs>
+			<Nume>Laptop</Nume>
+			<CodIntern>15531</CodIntern>
+			<Pret>1500</Pret>
+			<Categorie>Accesorii</Categorie>
+			<Producator>China</Producator>
+		</Produs>
+
+		<Produs>
+			<Nume>Laptop2</Nume>
+			<CodIntern>15531</CodIntern>
+			<Pret>100</Pret>
+			<Categorie>Accesorii</Categorie>
+			<Producator>China</Producator>
+		</Produs>
+
+		<Produs>
+			<Nume>Smartphone</Nume>
+			<CodIntern>15526</CodIntern>
+			<Pret>300</Pret>
+			<Categorie>Telecomunicatii</Categorie>
+			<Producator>Coreea de Sud</Producator>
+		</Produs>
+
+		<Serviciu>
+			<Nume>Optimizare Performanță</Nume>
+			<CodIntern>006</CodIntern>
+			<Pret>120</Pret>
+			<Categorie>Optimizari</Categorie>
+		</Serviciu>
+
+
+	</Pachet>
+	
+</elemente>

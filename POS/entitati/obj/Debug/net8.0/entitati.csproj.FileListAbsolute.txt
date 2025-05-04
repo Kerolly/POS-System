@@ -1,0 +1,11 @@
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\bin\Debug\net8.0\entitati.deps.json
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\bin\Debug\net8.0\entitati.dll
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\bin\Debug\net8.0\entitati.pdb
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\entitati.GeneratedMSBuildEditorConfig.editorconfig
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\entitati.AssemblyInfoInputs.cache
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\entitati.AssemblyInfo.cs
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\entitati.csproj.CoreCompileInputs.cache
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\entitati.dll
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\refint\entitati.dll
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\entitati.pdb
+D:\Andrei Facultate\Programare Orientata pe Obiecte\Laborator\Proiect\POS\entitati\obj\Debug\net8.0\ref\entitati.dll
