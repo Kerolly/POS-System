@@ -3,16 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
+using System.Text.Json.Serialization;
 
 namespace entitati
 {
+
+    [JsonDerivedType(typeof(Produs), "produs")]
+    [JsonDerivedType(typeof(Serviciu), "serviciu")]
+    [JsonDerivedType(typeof(Pachet), "pachet")]
+
     public abstract class ProdusAbstract: IPackageable
     {
+
+        [XmlElement("Numele")]
         public string? Nume { get; set; }
+
+        [XmlElement("CodulIntern")]
         public string? CodIntern { get; set; }
+
+        [XmlElement("ID")]
         public uint Id { get; set; }
         public int Pret { get; set; }
         public string Categorie { get; set; }
+
+
+        public ProdusAbstract()
+        {
+
+        }
 
         public ProdusAbstract(uint id, string? nume, string? codIntern, int pret, string? categorie)
         {

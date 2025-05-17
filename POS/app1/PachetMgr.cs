@@ -47,7 +47,7 @@ namespace app1
 
                     ProduseMgr produs = new ProduseMgr();
 
-                    IPackageable produsNou = produs.ReadUnProdus();
+                    ProdusAbstract produsNou = produs.ReadUnProdus();
 
                     //verificare addToPackage
                     if (produsNou is ProdusAbstract produsAbstract && 
@@ -67,7 +67,7 @@ namespace app1
 
                     ServiciiMgr serviciu = new ServiciiMgr();
 
-                    IPackageable serviciuNou = serviciu.ReadUnServiciu();
+                    ProdusAbstract serviciuNou = serviciu.ReadUnServiciu();
                     pachetNou.AddElement(serviciuNou);
 
                     if (serviciuNou is ProdusAbstract serviciuAbstract &&

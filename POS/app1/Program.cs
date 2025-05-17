@@ -6,6 +6,14 @@
         {
             static void Main(string[] args)
             {
+                //Testare serializare serviciu
+                /*Serviciu unServiciu = new Serviciu(12, "TestServ", "22", 122, "IT");         
+                unServiciu.save2XML("test");
+
+                Serviciu serviciuNou = new Serviciu();
+                serviciuNou = serviciuNou.loadFromXml("test");
+
+                serviciuNou.afisareServiciu();*/
 
                 Meniu();
             
@@ -55,6 +63,10 @@
                 Console.WriteLine("5. Afisare pachete");
                 Console.WriteLine("6. Afisare interogare linq");
                 Console.WriteLine("7. Afisare produse/pachete dupa criterii");
+                Console.WriteLine("8. Serializare elemente XML");
+                Console.WriteLine("9. Deserializare elemente XML");
+                Console.WriteLine("10. Serializare elemente JSON");
+                Console.WriteLine("11. Deserializare elemente JSON");
                 Console.WriteLine("0. Iesire program");
                 Console.WriteLine("---------------------------------");
                 Console.WriteLine("Introdu optiunea: ");
@@ -99,6 +111,23 @@
                         case 7:
                                 CriteriiMeniu();
                             break;
+
+                        case 8:
+                            mgrPachete.save2XML("elemente");
+
+                            break;
+
+                        case 9:
+                        mgrPachete.loadFromXml("elemente");
+                        break;
+
+                        case 10:
+                        mgrPachete.save2JSON("elemente");
+                        break;
+
+                        case 11:
+                        mgrPachete.loadFromJson("elemente");
+                        break;
 
                         case 0:
                             Console.WriteLine("Iesire program ...");

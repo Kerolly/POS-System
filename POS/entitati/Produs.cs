@@ -6,6 +6,10 @@
         private String? producator;// producator 
 
        
+        public Produs()
+        {
+
+        }
 
         public Produs(uint id, string? nume, string? codIntern, int pret, string? categorie, string? producator)
             : base(id, nume, codIntern, pret, categorie)
@@ -82,28 +86,7 @@
         }
 
 
-        /*public override bool canAddToPackage(Pachet pachet)
-        {
-            int produse = 0;
-            int servicii = 0;
-
-            foreach (var elem in pachet.Elemente_pachet)
-            {
-                if (elem is Produs)
-                    produse++;
-                else if (elem is Serviciu)
-                    servicii++;
-            }
-
-            if (this is Produs)
-                return produse < 2;
-
-            if (this is Serviciu)
-                return servicii < 3;
-
-            return false;
-        }
-*/
+        
 
 
 

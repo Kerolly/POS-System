@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using System.Xml;
 
 namespace entitati
 {
     public class Pachet:ProdusAbstract
     {
-        List<IPackageable> elemente_pachet = new List<IPackageable>();
+        List<ProdusAbstract> elemente_pachet = new List<ProdusAbstract>();
 
-        public List<IPackageable> Elemente_pachet { get => elemente_pachet; set => elemente_pachet = value; }
+        public List<ProdusAbstract> Elemente_pachet { get => elemente_pachet; set => elemente_pachet = value; }
 
+        public Pachet()
+        {
+
+
+        }
         public Pachet(uint id, string? nume, string? codIntern, int pret, string? categorie)
             : base(id, nume, codIntern, pret, categorie)
         {
@@ -47,7 +54,7 @@ namespace entitati
             return false;
         }
 
-        public void AddElement(IPackageable element)
+        public void AddElement(ProdusAbstract element)
         {
             Elemente_pachet.Add(element);
         }

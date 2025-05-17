@@ -5,6 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using entitati;
+using System.Xml.Serialization;
+using System.Text.Json.Serialization;
+using System.Text.Json;
+using System.Text.Json.Serialization.Metadata;
 
 namespace app1
 {
@@ -287,6 +291,102 @@ namespace app1
 
             }
         }
-        
+
+        //Serializare 
+        public void save2XML(string fileName)
+        {
+            Type[] prodAbstractTypes = new Type[3];
+            prodAbstractTypes[0] = typeof(Serviciu);
+            prodAbstractTypes[1] = typeof(Produs);
+            prodAbstractTypes[2] = typeof(Pachet);
+
+            try { 
+            XmlSerializer xs = new XmlSerializer(typeof(List<ProdusAbstract>), prodAbstractTypes);
+            StreamWriter writer = new StreamWriter(fileName + ".xml");
+            xs.Serialize(writer, elemente);
+            writer.Close();
+            Console.WriteLine("Salvat cu succes!");
+            }
+            catch(InvalidOperationException ex)
+            {
+                Console.WriteLine("Eroare la serializare:\n" + ex.Message);
+            }catch(IOException ex)
+            {
+                Console.WriteLine("Eroare la scrierea fisierului:\n" + ex.Message);
+            }
+        }
+
+
+        //deserializare
+        public ProdusAbstract? loadFromXml(string fileName)
+        {
+
+            Type[] prodAbstractTypes = new Type[3];
+            prodAbstractTypes[0] = typeof(Serviciu);
+            prodAbstractTypes[1] = typeof(Produs);
+            prodAbstractTypes[2] = typeof(Pachet);
+
+            try
+            {
+                XmlSerializer xs = new XmlSerializer(typeof(List<ProdusAbstract>), prodAbstractTypes);
+
+                FileStream fs = new FileStream(fileName + ".xml", FileMode.Open);
+                XmlReader reader = new XmlTextReader(fs);
+
+                var loadedElem = (List<ProdusAbstract>?)xs.Deserialize(reader);
+                elemente.AddRange(loadedElem);
+                fs.Close();
+                Console.WriteLine("Deserializat cu succes!");
+            }
+            catch(InvalidOperationException ex)
+            {
+                Console.WriteLine("Eroare la deserializare:\n" + ex.Message);
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine("Eroare la citirea fisierului:\n" + ex.Message);
+            }
+
+            return null;
+        }
+
+
+        public void save2JSON(string fileName)
+        {
+            Type[] prodAbstractTypes = new Type[3];
+            prodAbstractTypes[0] = typeof(Serviciu);
+            prodAbstractTypes[1] = typeof(Produs);
+            prodAbstractTypes[2] = typeof(Pachet);
+
+            JsonSerializerOptions options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+
+
+            string Json = JsonSerializer.Serialize(elemente, options);
+            File.WriteAllText(fileName + ".json", Json);
+
+            Console.WriteLine("Salvat cu succes!");
+        }
+
+        public void loadFromJson(string fileName)
+        {   string jsonContent = File.ReadAllText(fileName + ".json");
+
+            JsonSerializerOptions options = new JsonSerializerOptions
+            {
+                TypeInfoResolver = new DefaultJsonTypeInfoResolver(), //polymorphic deser
+                PropertyNameCaseInsensitive = true
+            };
+
+            var loadedElem = JsonSerializer.Deserialize<List<ProdusAbstract>>(jsonContent);
+
+            elemente.AddRange(loadedElem);
+
+            Console.WriteLine("Deserializat cu succes!");
+        }
+
+
+
     }
 }

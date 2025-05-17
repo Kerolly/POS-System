@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProdusAbstract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Laptop</Numele>
+    <CodulIntern>15525</CodulIntern>
+    <ID>1</ID>
+    <Pret>4500</Pret>
+    <Categorie>Tehnologia Informatiei</Categorie>
+    <Producator>Japonia</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Smartphone</Numele>
+    <CodulIntern>15526</CodulIntern>
+    <ID>2</ID>
+    <Pret>3200</Pret>
+    <Categorie>Telecomunicatii</Categorie>
+    <Producator>Coreea de Sud</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Televizor</Numele>
+    <CodulIntern>15527</CodulIntern>
+    <ID>3</ID>
+    <Pret>3000</Pret>
+    <Categorie>Electronice</Categorie>
+    <Producator>Germania</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Frigider</Numele>
+    <CodulIntern>15528</CodulIntern>
+    <ID>4</ID>
+    <Pret>2400</Pret>
+    <Categorie>Electrocasnice</Categorie>
+    <Producator>Franta</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Masina de spalat</Numele>
+    <CodulIntern>15529</CodulIntern>
+    <ID>5</ID>
+    <Pret>2800</Pret>
+    <Categorie>Electrocasnice</Categorie>
+    <Producator>Italia</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Camera foto</Numele>
+    <CodulIntern>15530</CodulIntern>
+    <ID>6</ID>
+    <Pret>2000</Pret>
+    <Categorie>Foto-Video</Categorie>
+    <Producator>Suedia</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Imprimanta</Numele>
+    <CodulIntern>15531</CodulIntern>
+    <ID>7</ID>
+    <Pret>1500</Pret>
+    <Categorie>Accesorii</Categorie>
+    <Producator>China</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Aspirator</Numele>
+    <CodulIntern>15532</CodulIntern>
+    <ID>8</ID>
+    <Pret>1100</Pret>
+    <Categorie>Electrocasnice</Categorie>
+    <Producator>Olanda</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Numele>Tableta</Numele>
+    <CodulIntern>15533</CodulIntern>
+    <ID>9</ID>
+    <Pret>1700</Pret>
+    <Categorie>Tehnologia Informatiei</Categorie>
+    <Producator>Canada</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Instalare Windows</Numele>
+    <CodulIntern>001</CodulIntern>
+    <ID>10</ID>
+    <Pret>100</Pret>
+    <Categorie>Instalari</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Instalare Microsoft Office</Numele>
+    <CodulIntern>002</CodulIntern>
+    <ID>11</ID>
+    <Pret>150</Pret>
+    <Categorie>Instalari</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Reparare Laptop</Numele>
+    <CodulIntern>003</CodulIntern>
+    <ID>12</ID>
+    <Pret>200</Pret>
+    <Categorie>Reparatii</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Curatare Sistem</Numele>
+    <CodulIntern>004</CodulIntern>
+    <ID>13</ID>
+    <Pret>80</Pret>
+    <Categorie>Intretinere</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Diagnosticare PC</Numele>
+    <CodulIntern>005</CodulIntern>
+    <ID>14</ID>
+    <Pret>50</Pret>
+    <Categorie>Diagnosticare</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Optimizare Performanță</Numele>
+    <CodulIntern>006</CodulIntern>
+    <ID>15</ID>
+    <Pret>120</Pret>
+    <Categorie>Optimizari</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Instalare Antivirus</Numele>
+    <CodulIntern>007</CodulIntern>
+    <ID>16</ID>
+    <Pret>90</Pret>
+    <Categorie>Instalari</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Configurare Router</Numele>
+    <CodulIntern>008</CodulIntern>
+    <ID>17</ID>
+    <Pret>100</Pret>
+    <Categorie>Networking</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Recuperare Date</Numele>
+    <CodulIntern>009</CodulIntern>
+    <ID>18</ID>
+    <Pret>300</Pret>
+    <Categorie>Reparatii</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Numele>Upgrade Hardware</Numele>
+    <CodulIntern>010</CodulIntern>
+    <ID>19</ID>
+    <Pret>250</Pret>
+    <Categorie>Upgrade</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Numele>Craciun</Numele>
+    <CodulIntern>4112</CodulIntern>
+    <ID>10</ID>
+    <Pret>3120</Pret>
+    <Categorie>IT</Categorie>
+    <Elemente_pachet>
+      <ProdusAbstract xsi:type="Produs">
+        <Numele>Laptop</Numele>
+        <CodulIntern>15531</CodulIntern>
+        <ID>11</ID>
+        <Pret>1500</Pret>
+        <Categorie>Accesorii</Categorie>
+        <Producator>China</Producator>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Produs">
+        <Numele>Laptop2</Numele>
+        <CodulIntern>15531</CodulIntern>
+        <ID>12</ID>
+        <Pret>1500</Pret>
+        <Categorie>Accesorii</Categorie>
+        <Producator>China</Producator>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Numele>Optimizare Performanță</Numele>
+        <CodulIntern>006</CodulIntern>
+        <ID>14</ID>
+        <Pret>120</Pret>
+        <Categorie>Optimizari</Categorie>
+      </ProdusAbstract>
+    </Elemente_pachet>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Numele>Paste</Numele>
+    <CodulIntern>4112</CodulIntern>
+    <ID>15</ID>
+    <Pret>1720</Pret>
+    <Categorie>IT</Categorie>
+    <Elemente_pachet>
+      <ProdusAbstract xsi:type="Produs">
+        <Numele>Laptop</Numele>
+        <CodulIntern>15531</CodulIntern>
+        <ID>16</ID>
+        <Pret>1500</Pret>
+        <Categorie>Accesorii</Categorie>
+        <Producator>China</Producator>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Produs">
+        <Numele>Laptop2</Numele>
+        <CodulIntern>15531</CodulIntern>
+        <ID>17</ID>
+        <Pret>100</Pret>
+        <Categorie>Accesorii</Categorie>
+        <Producator>China</Producator>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Numele>Optimizare Performanță</Numele>
+        <CodulIntern>006</CodulIntern>
+        <ID>19</ID>
+        <Pret>120</Pret>
+        <Categorie>Optimizari</Categorie>
+      </ProdusAbstract>
+    </Elemente_pachet>
+  </ProdusAbstract>
+</ArrayOfProdusAbstract>

@@ -3,11 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace entitati
 {
-    public class Serviciu:ProdusAbstract
+    [XmlRoot("ServiciuParticularizat")]
+    public class Serviciu:ProdusAbstract, IPackageable
     {
+
+      
+
+        public Serviciu()
+        {
+
+        }
         
         public Serviciu(uint id, string? nume, string? codIntern, int pret, string? categorie)
             :base(id, nume, codIntern, pret, categorie)
@@ -79,8 +89,42 @@ namespace entitati
 
         public override bool canAddToPackage(Pachet pachet)
         {
-            return true;
+            if (this is Produs)
+                return pachet.Elemente_pachet.Count(e => e is Produs) < 2;
+
+            if (this is Serviciu)
+                return pachet.Elemente_pachet.Count(e => e is Serviciu) < 3;
+
+            return false;
         }
+
+        //Serializare serviciu
+        public void save2XML(string fileName)
+        {
+            XmlSerializer xs = new XmlSerializer(typeof(Serviciu));
+            StreamWriter sw = new StreamWriter(fileName + ".xml");
+            xs.Serialize(sw, this);
+            sw.Close();
+            Console.WriteLine("Salvat cu succes!");
+        }
+
+
+        //deserializare serviciu
+        public Serviciu? loadFromXml(string fileName)
+        {
+            XmlSerializer xs = new XmlSerializer(typeof(Serviciu));
+            
+            FileStream fs = new FileStream(fileName + ".xml", FileMode.Open);
+            XmlReader reader = new XmlTextReader(fs);
+
+            Serviciu? serviciu = (Serviciu?)xs.Deserialize(reader);
+            fs.Close();
+            Console.WriteLine("Deserializat cu succes!");
+            return serviciu;
+
+        }
+
+
 
     }
 

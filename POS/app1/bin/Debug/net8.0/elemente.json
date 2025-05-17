@@ -1,0 +1,235 @@
+[
+  {
+    "$type": "produs",
+    "Producator": "Japonia",
+    "Nume": "Laptop",
+    "CodIntern": "15525",
+    "Id": 1,
+    "Pret": 4500,
+    "Categorie": "Tehnologia Informatiei"
+  },
+  {
+    "$type": "produs",
+    "Producator": "Coreea de Sud",
+    "Nume": "Smartphone",
+    "CodIntern": "15526",
+    "Id": 2,
+    "Pret": 3200,
+    "Categorie": "Telecomunicatii"
+  },
+  {
+    "$type": "produs",
+    "Producator": "Germania",
+    "Nume": "Televizor",
+    "CodIntern": "15527",
+    "Id": 3,
+    "Pret": 3000,
+    "Categorie": "Electronice"
+  },
+  {
+    "$type": "produs",
+    "Producator": "Franta",
+    "Nume": "Frigider",
+    "CodIntern": "15528",
+    "Id": 4,
+    "Pret": 2400,
+    "Categorie": "Electrocasnice"
+  },
+  {
+    "$type": "produs",
+    "Producator": "Italia",
+    "Nume": "Masina de spalat",
+    "CodIntern": "15529",
+    "Id": 5,
+    "Pret": 2800,
+    "Categorie": "Electrocasnice"
+  },
+  {
+    "$type": "produs",
+    "Producator": "Suedia",
+    "Nume": "Camera foto",
+    "CodIntern": "15530",
+    "Id": 6,
+    "Pret": 2000,
+    "Categorie": "Foto-Video"
+  },
+  {
+    "$type": "produs",
+    "Producator": "China",
+    "Nume": "Imprimanta",
+    "CodIntern": "15531",
+    "Id": 7,
+    "Pret": 1500,
+    "Categorie": "Accesorii"
+  },
+  {
+    "$type": "produs",
+    "Producator": "Olanda",
+    "Nume": "Aspirator",
+    "CodIntern": "15532",
+    "Id": 8,
+    "Pret": 1100,
+    "Categorie": "Electrocasnice"
+  },
+  {
+    "$type": "produs",
+    "Producator": "Canada",
+    "Nume": "Tableta",
+    "CodIntern": "15533",
+    "Id": 9,
+    "Pret": 1700,
+    "Categorie": "Tehnologia Informatiei"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Instalare Windows",
+    "CodIntern": "001",
+    "Id": 10,
+    "Pret": 100,
+    "Categorie": "Instalari"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Instalare Microsoft Office",
+    "CodIntern": "002",
+    "Id": 11,
+    "Pret": 150,
+    "Categorie": "Instalari"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Reparare Laptop",
+    "CodIntern": "003",
+    "Id": 12,
+    "Pret": 200,
+    "Categorie": "Reparatii"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Curatare Sistem",
+    "CodIntern": "004",
+    "Id": 13,
+    "Pret": 80,
+    "Categorie": "Intretinere"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Diagnosticare PC",
+    "CodIntern": "005",
+    "Id": 14,
+    "Pret": 50,
+    "Categorie": "Diagnosticare"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Optimizare Performan\u021B\u0103",
+    "CodIntern": "006",
+    "Id": 15,
+    "Pret": 120,
+    "Categorie": "Optimizari"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Instalare Antivirus",
+    "CodIntern": "007",
+    "Id": 16,
+    "Pret": 90,
+    "Categorie": "Instalari"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Configurare Router",
+    "CodIntern": "008",
+    "Id": 17,
+    "Pret": 100,
+    "Categorie": "Networking"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Recuperare Date",
+    "CodIntern": "009",
+    "Id": 18,
+    "Pret": 300,
+    "Categorie": "Reparatii"
+  },
+  {
+    "$type": "serviciu",
+    "Nume": "Upgrade Hardware",
+    "CodIntern": "010",
+    "Id": 19,
+    "Pret": 250,
+    "Categorie": "Upgrade"
+  },
+  {
+    "$type": "pachet",
+    "Elemente_pachet": [
+      {
+        "$type": "produs",
+        "Producator": "China",
+        "Nume": "Laptop",
+        "CodIntern": "15531",
+        "Id": 11,
+        "Pret": 1500,
+        "Categorie": "Accesorii"
+      },
+      {
+        "$type": "produs",
+        "Producator": "China",
+        "Nume": "Laptop2",
+        "CodIntern": "15531",
+        "Id": 12,
+        "Pret": 1500,
+        "Categorie": "Accesorii"
+      },
+      {
+        "$type": "serviciu",
+        "Nume": "Optimizare Performan\u021B\u0103",
+        "CodIntern": "006",
+        "Id": 14,
+        "Pret": 120,
+        "Categorie": "Optimizari"
+      }
+    ],
+    "Nume": "Craciun",
+    "CodIntern": "4112",
+    "Id": 10,
+    "Pret": 3120,
+    "Categorie": "IT"
+  },
+  {
+    "$type": "pachet",
+    "Elemente_pachet": [
+      {
+        "$type": "produs",
+        "Producator": "China",
+        "Nume": "Laptop",
+        "CodIntern": "15531",
+        "Id": 16,
+        "Pret": 1500,
+        "Categorie": "Accesorii"
+      },
+      {
+        "$type": "produs",
+        "Producator": "China",
+        "Nume": "Laptop2",
+        "CodIntern": "15531",
+        "Id": 17,
+        "Pret": 100,
+        "Categorie": "Accesorii"
+      },
+      {
+        "$type": "serviciu",
+        "Nume": "Optimizare Performan\u021B\u0103",
+        "CodIntern": "006",
+        "Id": 19,
+        "Pret": 120,
+        "Categorie": "Optimizari"
+      }
+    ],
+    "Nume": "Paste",
+    "CodIntern": "4112",
+    "Id": 15,
+    "Pret": 1720,
+    "Categorie": "IT"
+  }
+]
