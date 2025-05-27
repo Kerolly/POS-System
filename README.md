@@ -1,4 +1,5 @@
-# POS-System (University Project)
+# POS-System (University Project) - V1
+console application
 
 A Point of Sale (POS) system developed for the Object-Oriented Programming (OOP) course at IETI Oradea, under the guidance of **Dr. Ing. Prof. ZMARANDA Rodica Doina**.
 
@@ -10,7 +11,7 @@ This system manages:
 
 ## 🎯 Key Features
 - **CRUD Operations**: Add, view, and manage elements
-- **Data Persistence**: Read/write (soon) from XML files
+- **Data Persistence**: Read/write from XML, JSON files
 - **Data Organization**: Filter and sort functionality
 - **OOP Implementation**: Demonstrates core object-oriented principles
 
@@ -18,8 +19,8 @@ This system manages:
 - C# (.NET Framework)
 - OOP Principles
 - LINQ for data operations
-- XML for data storage
-
+- XML, JSON for data storage
+  
 ## 🚀 Getting Started
 1. Clone this repository
 2. Open the solution in Visual Studio
